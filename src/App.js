@@ -117,7 +117,12 @@ function App() {
         <div className="result">
           {convertedAmount !== null && (
             <p>
-              {amount} {fromCurrency} is equal to {convertedAmount} {toCurrency}
+              {new Intl.NumberFormat().format(Number(amount).toFixed(2))}{" "}
+              {fromCurrency} is equal to{" "}
+              {new Intl.NumberFormat().format(
+                Number(convertedAmount).toFixed(2)
+              )}{" "}
+              {toCurrency}
             </p>
           )}
         </div>
