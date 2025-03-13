@@ -62,7 +62,7 @@ h1 {
   position: relative;
   display: inline-block;
   cursor: pointer;
-  color: #2575fc;
+  color: #6a11cb;
   font-size: 20px;
 }
 
@@ -124,7 +124,7 @@ h1 {
 }
 
 .currency-select:focus {
-  border-color: #2575fc; /* Highlight on focus */
+  border-color: #6a11cb; /* Highlight on focus */
   background-color: #e9f2ff;
 }
 
@@ -143,7 +143,7 @@ h1 {
   border: none;
   cursor: pointer;
   font-size: 24px;
-  color: #2575fc;
+  color: #6a11cb;
   padding: 10px;
   transition: all 0.3s ease;
 }
@@ -166,7 +166,7 @@ h1 {
 }
 
 .amount-input:focus {
-  border-color: #2575fc;
+  border-color: #6a11cb;
   background-color: #e9f2ff;
 }
 
@@ -248,7 +248,7 @@ select {
 
 .currency-select:focus,
 select:focus {
-  border-color: #2575fc; /* Highlight on focus */
+  border-color: #6a11cb; /* Highlight on focus */
   background-color: #e9f2ff;
 }
 
